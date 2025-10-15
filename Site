@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gâmbia Energia Solar</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #00467f, #ff9933);
+      color: #fff;
+      padding: 20px 10%;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    h1, h2 {
+      color: #00467f;
+    }
+    section {
+      padding: 40px 10%;
+    }
+    .intro {
+      text-align: center;
+    }
+    .intro p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    .cta {
+      background: #ff9933;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+    }
+    .form-section {
+      background: #eef4f9;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 600px;
+      margin: 40px auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+    input[type="submit"] {
+      background-color: #00467f;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #00365f;
+    }
+    .blog {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    footer {
+      background: #00467f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+    .chat {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #ff9933;
+      color: white;
+      border-radius: 50px;
+      padding: 12px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.canva.com/design/DAGEp8ZZB_4/5gy0XKLcYpY6TT8Y1YQZgg/edit?utm_content=DAGEp8ZZB_4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" alt="Logo Gâmbia Energia Solar">
+    <h1>Gâmbia Energia Solar</h1>
+    <p>Sustentabilidade que gera economia</p>
+  </header>
+
+  <section class="intro">
+    <h2>Energia Inteligente para um Futuro Sustentável</h2>
+    <p>
+      A Gâmbia Energia Solar oferece soluções completas para quem deseja reduzir custos com energia e contribuir para o meio ambiente. 
+      Com tecnologia de ponta e atendimento personalizado, ajudamos você a entender como o <strong>mercado livre de energia</strong> pode transformar sua conta de luz.
+    </p>
+  </section>
+
+  <section class="form-section">
+    <h2>Fale Conosco</h2>
+    <p>Preencha seus dados e nossa equipe entrará em contato para explicar como funciona o mercado de energia livre e a melhor solução para você.</p>
+    <form>
+      <label>Nome completo:</label>
+      <input type="text" name="nome" required>
+      <label>Telefone/WhatsApp:</label>
+      <input type="text" name="telefone" required>
+      <label>E-mail:</label>
+      <input type="email" name="email" required>
+      <label>Consumo médio mensal (kWh):</label>
+      <input type="number" name="consumo" required>
+      <label>Mensagem:</label>
+      <textarea name="mensagem" rows="4" placeholder="Descreva brevemente seu interesse..."></textarea>
+      <input type="submit" value="Enviar Solicitação">
+    </form>
+  </section>
+
+  <section>
+    <h2>Por que escolher energia renovável?</h2>
+    <p>
+      Ao optar por energia solar, você reduz seu impacto ambiental e contribui diretamente para um planeta mais limpo. 
+      A Gâmbia Energia Solar é comprometida com práticas sustentáveis e possui o <strong>Selo Verde</strong> de responsabilidade ambiental.
+    </p>
+  </section>
+
+  <section>
+    <h2>Blog – Dicas para economizar energia</h2>
+    <div class="blog">
+      <h3>💡 Como reduzir o consumo de energia em casa</h3>
+      <p>Pequenas mudanças de hábitos, como desligar aparelhos em stand-by e usar lâmpadas de LED, podem gerar economias de até 30% na sua conta.</p>
+    </div>
+    <div class="blog">
+      <h3>☀️ Vantagens da energia solar no mercado livre</h3>
+      <p>Com a energia solar, você passa a ter controle sobre seus custos e ainda contribui para a preservação do meio ambiente.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gâmbia Energia Solar | Sustentabilidade que gera economia</p>
+  </footer>
+
+  <div class="chat">💬 Fale com um especialista</div>
+</body>
+</html>
